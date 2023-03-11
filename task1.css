@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ara{
+    
+}
+.menu a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: rgb(53, 10, 133);
+}
+
+.basliq {
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    gap: 18px;
+    letter-spacing: 2px;
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 1px solid rgb(53, 10, 133);
+    border-radius: 5px;
+}
+.menu a{
+    padding-top: 15px;
+}
+.slider{
+    background-color: rgb(53, 10, 133);
+    height: 500px;
+}
+.slider > div{
+    display: flex;
+    padding-top: 100px;
+}
+.slider > div > div img{
+    width: 400px;
+    height: 500px;
+  object-fit: cover;
+
+}
+.slider > div >div:nth-child(1) h2{
+    color: aliceblue;
+    line-height: 1;
+    padding-top: 50px;
+}
+.slider > div >div:nth-child(1) p{
+    color: aliceblue;
+}
+.slider > div >div:nth-child(1) button{
+   margin-top: 10px;
+   border: 1px solid #fff;
+   background-color: rgb(53, 10, 133);
+  
+}
+.slider > div >div:nth-child(1) button a{
+    color: #fff;
+}
+.line{
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+}
+.service-list{
+    display: flex;
+    
+}
+.section{
+    margin-top: 250px;
+   
+}
+.first-list .second-list .last-list{
+    width: 33.3%;
+}
+.black-line{
+    width: 200px;
+    height: 2px;
+    background-color: grey;
+    margin-bottom: 40px;
+}
+.container h3{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.section p{
+    color: grey;
+}
+.container .service-list .sevice-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.center-box{
+    background-color:rgb(53, 10, 133);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.center-box h2{
+    color: #fff;
+}
+.center-box button{
+    background-color:rgb(53, 10, 133) ;
+    border: 1px solid #fff;
+    color: white;
+    
+    
+}
+.center-box button a{
+    color: #fff;
+       
+}
+.long-line{
+    height: 1px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: black;
+   
+
+}
+footer{
+    margin-top: 100px;
+    background-color: rgba(241, 239, 239, 0.932);
+    height: 400px;
+}
+.container .up-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+}
+.container .up-footer span{
+    font-weight:bold;
+    
+}
+.container .up-footer a{
+    color: grey;
+
+}
+.container .up-footer a:hover{
+    color: black;
+    font-weight: bolder;
+}
+.container .down-footer{
+    margin-top: 50px;
+}
+.down-footer strong{
+    color: grey;
+   margin-bottom: 1rem;
+    
+}
+.down-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.down-footer p{
+    font-weight:bolder ;
+    margin-top: 1rem;
+}
+    
+
+
+    
+
+
+
